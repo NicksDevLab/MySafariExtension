@@ -3,13 +3,44 @@
 }
 
 body {
-    width: 100px;
-    padding: 10px;
+    height: 300px;
+    width: 300px;
+}
 
-    font-family: system-ui;
-    text-align: center;
+@media (prefers-color-scheme: no-preference) {
+     body {
+        background-color: white;
+     }
+     #greetingDiv p, #bottomDiv p, #speedSlider, #wpmLabelDiv  {
+         color: black;
+     }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+         background-color: white;
+     }
+     #greetingDiv p, #bottomDiv p, #speedSlider, #wpmLabelDiv  {
+         color: black;
+     }
 }
 
 @media (prefers-color-scheme: dark) {
-    /* Dark Mode styles go here. */
+    body {
+        background-color: rgb(49, 48, 48);
+    }
+    #greetingDiv p, #bottomDiv p, #speedSlider, #wpmLabelDiv {
+        color: seashell;
+    }
 }
+
+#greetingDiv, #startDiv, #settingsButtonDiv, #sliderDiv, #wpmLabelDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#greetingDiv {
+    font-size: xx-large;
+}
+

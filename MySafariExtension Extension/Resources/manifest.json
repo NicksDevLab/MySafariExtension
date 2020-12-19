@@ -18,10 +18,27 @@
         "scripts": [ "background.js" ]
     },
 
-    "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
-    }],
+    "content_scripts": [
+            {
+                "matches":[
+                    "https://news.yahoo.com/*",
+                    "https://www.npr.org/*",
+                    "https://www.nbcnews.com/*",
+                    "https://quillette.com/*"
+                ],
+                "css": ["content.css"]
+            },
+            {
+                "matches":[
+                    "https://news.yahoo.com/*",
+                    "https://www.npr.org/*",
+                    "https://www.nbcnews.com/*",
+                    "https://quillette.com/*"
+                ],
+                    
+                "js": ["content.js"]
+            }
+        ],
 
     "browser_action": {
         "default_popup": "popup.html",
@@ -33,5 +50,7 @@
         }
     },
 
-    "permissions": [ ]
+    "permissions": ["activeTab", "storage"],
+
+    "content_security_policy": "script-src 'self'"
 }

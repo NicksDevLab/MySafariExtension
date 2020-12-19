@@ -1,0 +1,30 @@
+
+body {
+    scroll-behavior: smooth;
+}
+
+@keyframes backgroundOpacity {
+    from {opacity: 0.0;}
+    to {opacity: 0.85;}
+}
+
+
+#background {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+    z-index: 100;
+    background: #000;
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: backgroundOpacity;
+    animation-duration: 1.5s;
+}

@@ -22,6 +22,7 @@
 		0162F203258D08940070D61F /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0162F202258D08940070D61F /* popup.html */; };
 		0162F205258D08940070D61F /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 0162F204258D08940070D61F /* popup.css */; };
 		0162F207258D08940070D61F /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 0162F206258D08940070D61F /* popup.js */; };
+		0162F216258D45480070D61F /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = 0162F215258D45480070D61F /* content.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		0162F206258D08940070D61F /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		0162F208258D08940070D61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0162F209258D08940070D61F /* MySafariExtension_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MySafariExtension_Extension.entitlements; sourceTree = "<group>"; };
+		0162F215258D45480070D61F /* content.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = content.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				0162F1FC258D08940070D61F /* manifest.json */,
 				0162F1FE258D08940070D61F /* background.js */,
 				0162F200258D08940070D61F /* content.js */,
+				0162F215258D45480070D61F /* content.css */,
 				0162F202258D08940070D61F /* popup.html */,
 				0162F204258D08940070D61F /* popup.css */,
 				0162F206258D08940070D61F /* popup.js */,
@@ -245,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0162F216258D45480070D61F /* content.css in Resources */,
 				0162F1FF258D08940070D61F /* background.js in Resources */,
 				0162F205258D08940070D61F /* popup.css in Resources */,
 				0162F203258D08940070D61F /* popup.html in Resources */,

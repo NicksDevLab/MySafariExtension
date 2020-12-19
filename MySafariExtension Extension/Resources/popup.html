@@ -6,6 +6,22 @@
     <script type="module" src="popup.js"></script>
 </head>
 <body>
-    <strong>Hello World!</strong>
+  <div id="parent">
+      <div id="greetingDiv">
+          <p>Start Reading!</p>
+      </div>
+      <div id="wpmLabelDiv">
+          <h1 id="wpmLabel"></h1>
+      </div>
+      <div id="sliderDiv">
+          <input type="range" min="60" max="360" step="5" id="speedSlider">
+      </div>
+      <div id="startDiv">
+          <button type="button" id="startButton"></button>
+      </div>
+      <div id="settingsButtonDiv">
+          <button type="button" id="settingsButton">settingsButton</button>
+      </div>
+  </div>
 </body>
 </html>

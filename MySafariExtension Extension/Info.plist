@@ -28,6 +28,32 @@
 		<string>com.apple.Safari.web-extension</string>
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).SafariWebExtensionHandler</string>
+    <key>SFSafariContentScript</key>
+        <array>
+          <dict>
+            <key>Script</key>
+            <string>content.js</string>
+          </dict>
+        </array>
+    <key>SFSafariStyleSheet</key>
+      <array>
+        <dict>
+          <key>StyleSheet</key>
+          <string>content.css</string>
+        </dict>
+      </array>
+    <key>SFSafariWebsiteAccess</key>
+    <dict>
+      <key>Level</key>
+      <string>Some</string>
+      <key>Allowed Domains</key>
+      <array>
+        <string>news.yahoo.com/*</string>
+        <string>www.npr.org/*</string>
+        <string>quillette.com/*</string>
+        <string>nbcnews.com/*</string>
+      </array>
+    </dict>
 	</dict>
 </dict>
 </plist>

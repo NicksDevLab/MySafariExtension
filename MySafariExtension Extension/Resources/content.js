@@ -162,6 +162,7 @@ function getArticle(section, conditions, idMethod) {
     }
 }
 
+
 function findParagraphs(element) {
     if (document.location.host == "www.cnn.com") {
         if (element.className == "zn-body__paragraph") {

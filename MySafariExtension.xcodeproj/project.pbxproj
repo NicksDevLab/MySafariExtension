@@ -152,11 +152,19 @@
 				0162F1FE258D08940070D61F /* background.js */,
 				0162F200258D08940070D61F /* content.js */,
 				0162F215258D45480070D61F /* content.css */,
+				017C2C9E259A39D500F1F891 /* Popup */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		017C2C9E259A39D500F1F891 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
 				0162F202258D08940070D61F /* popup.html */,
 				0162F204258D08940070D61F /* popup.css */,
 				0162F206258D08940070D61F /* popup.js */,
 			);
-			path = Resources;
+			path = Popup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -3,11 +3,11 @@ var isActive = false;
 var readingSpeed;
 
 window.onload = function() {
-  restoreOptions();
-  document.getElementById("startButton").addEventListener("click", buttonClicked, false);
-  document.getElementById("settingsButton").addEventListener("click", openSettingsPage, false);
-  document.getElementById("speedSlider").oninput = function() { changePreferedSpeed(); };
-  setButtonText();
+    restoreOptions();
+    setButtonText();
+    document.getElementById("startButton").addEventListener("click", buttonClicked, false);
+    document.getElementById("settingsButton").addEventListener("click", openSettingsPage, false);
+    document.getElementById("speedSlider").oninput = function() { changePreferedSpeed(); };
 }
 
 
@@ -46,7 +46,7 @@ function changePreferedSpeed() {
 function buttonClicked() {
   
     isActive = !isActive;
-    window.localStorage.setItem("active", isActive.toString());
+    window.localStorage.setItem("active", isActive);
 
     let activeTabs = browser.tabs.query({ currentWindow: true, active: true });
     activeTabs.then((tabs) => {
@@ -59,9 +59,7 @@ function buttonClicked() {
     });
   
     setButtonText();
-    blur();
 }
-
 
 
 function openSettingsPage() {

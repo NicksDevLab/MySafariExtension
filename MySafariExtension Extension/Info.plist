@@ -52,6 +52,10 @@
         <string>www.npr.org/*</string>
         <string>quillette.com/*</string>
         <string>nbcnews.com/*</string>
+		<string>www.foxnews.com/*</string>
+		<string>www.huffpost.com/*</string>
+		<string>www.cnn.com/*</string>
+		<string>www.dailymail.co.uk/*</string>
       </array>
     </dict>
 	</dict>

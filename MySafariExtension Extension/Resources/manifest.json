@@ -24,7 +24,11 @@
                     "https://news.yahoo.com/*",
                     "https://www.npr.org/*",
                     "https://www.nbcnews.com/*",
-                    "https://quillette.com/*"
+                    "https://quillette.com/*",
+                    "https://www.foxnews.com/*",
+                    "https://www.huffpost.com/*",
+                    "https://www.cnn.com/*",
+                    "https://www.dailymail.co.uk/*"
                 ],
                 "css": ["content.css"]
             },
@@ -33,7 +37,11 @@
                     "https://news.yahoo.com/*",
                     "https://www.npr.org/*",
                     "https://www.nbcnews.com/*",
-                    "https://quillette.com/*"
+                    "https://quillette.com/*",
+                    "https://www.foxnews.com/*",
+                    "https://www.huffpost.com/*",
+                    "https://www.cnn.com/*",
+                    "https://www.dailymail.co.uk/*"
                 ],
                     
                 "js": ["content.js"]
@@ -50,7 +58,7 @@
         }
     },
 
-    "permissions": ["activeTab", "storage"],
+    "permissions": ["activeTab", "tabs", "storage"],
 
     "content_security_policy": "script-src 'self'"
 }
